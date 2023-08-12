@@ -1,4 +1,4 @@
-package com.xiaohansong.kvstore.model.command;
+package kvstore.model.command;
 
 import com.alibaba.fastjson.JSON;
 import lombok.Getter;

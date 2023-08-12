@@ -1,6 +1,8 @@
 package com.xiaohansong.kvstore.service;
 
 
+import kvstore.service.KvStore;
+import kvstore.service.LsmKvStore;
 import org.junit.Test;
 
 import java.io.IOException;
@@ -13,7 +15,7 @@ public class LsmKvStoreTest {
 
     @Test
     public void set() throws IOException {
-        KvStore kvStore = new LsmKvStore("/Users/hansong/Downloads/kvstore/db/", 4, 3);
+        KvStore kvStore = new LsmKvStore("src/main/kvstore", 4, 3);
         for (int i = 0; i < 11; i++) {
             kvStore.set(i + "", i + "");
         }
@@ -27,7 +29,7 @@ public class LsmKvStoreTest {
             assertNull(kvStore.get(i + ""));
         }
         kvStore.close();
-        kvStore = new LsmKvStore("/Users/hansong/Downloads/kvstore/db/", 4, 3);
+        kvStore = new LsmKvStore("src/main/kvstore", 4, 3);
         for (int i = 0; i < 11; i++) {
             assertNull(kvStore.get(i + ""));
         }

@@ -1,4 +1,4 @@
-package com.xiaohansong.kvstore.model.sstable;
+package kvstore.model.sstable;
 
 import lombok.Data;
 

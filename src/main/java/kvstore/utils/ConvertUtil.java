@@ -1,10 +1,10 @@
-package com.xiaohansong.kvstore.utils;
+package kvstore.utils;
 
 import com.alibaba.fastjson.JSONObject;
-import com.xiaohansong.kvstore.model.command.Command;
-import com.xiaohansong.kvstore.model.command.CommandTypeEnum;
-import com.xiaohansong.kvstore.model.command.RmCommand;
-import com.xiaohansong.kvstore.model.command.SetCommand;
+import kvstore.model.command.Command;
+import kvstore.model.command.CommandTypeEnum;
+import kvstore.model.command.RmCommand;
+import kvstore.model.command.SetCommand;
 
 public class ConvertUtil {
 

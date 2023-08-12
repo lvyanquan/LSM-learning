@@ -1,4 +1,4 @@
-package com.xiaohansong.kvstore.utils;
+package kvstore.utils;
 
 import org.slf4j.Logger;
 

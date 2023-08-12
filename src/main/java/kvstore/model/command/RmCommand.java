@@ -1,4 +1,4 @@
-package com.xiaohansong.kvstore.model.command;
+package kvstore.model.command;
 
 import lombok.Getter;
 import lombok.Setter;

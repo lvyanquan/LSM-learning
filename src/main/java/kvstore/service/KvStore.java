@@ -1,4 +1,4 @@
-package com.xiaohansong.kvstore.service;
+package kvstore.service;
 
 import java.io.Closeable;
 
